@@ -7,7 +7,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://byte-talk-8wwm.onrender.com',
+    origin: '*',
     methods: ['GET', 'POST'],
     credentials: true,
   },
