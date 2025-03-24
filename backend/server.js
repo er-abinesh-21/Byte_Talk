@@ -14,12 +14,7 @@ const io = new Server(httpServer, {
 });
 
 // Middleware
-app.use(cors(
-  {
-  origin: '*',
-  methods: ['GET', 'POST'],
-}
-));
+app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
 // Track active users and their sockets
