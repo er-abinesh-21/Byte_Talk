@@ -3,7 +3,7 @@
 Byte Talk is an innovative real-time chat application designed to facilitate seamless and engaging communication. Whether you want to chat with friends, collaborate with colleagues, or create private chat rooms, Byte Talk makes it simple and efficient. With a sleek, gradient-themed user interface and modern functionalities, it provides an enjoyable messaging experience.
 
 
-![Byte Talk Login](https://github.com/user-attachments/assets/323992eb-6d7e-4f4d-8973-d54bc667066f)
+![Byte Talk Login](https://github.com/user-attachments/assets/82c812ae-908c-4c00-8ed6-0c2e2a712960)
 
 ---
 
@@ -18,8 +18,7 @@ Byte Talk is an innovative real-time chat application designed to facilitate sea
 - **Lightweight Performance:** Efficient memory management and optimized API calls ensure a seamless chat experience.
 
 
-![Byte Talk Chat](https://github.com/user-attachments/assets/3ee4457b-e5c3-43d3-97a7-c18bd90f5c83)
-
+![Byte Talk Chat](https://github.com/user-attachments/assets/103cee25-dedf-4fc4-b8c3-4cc093fa1338)
 
 ---
 
@@ -29,24 +28,22 @@ Here are additional screenshots showcasing various features of Byte Talk:
 
 - **Login Page**
   
-  ![Login](https://github.com/user-attachments/assets/8e2ce748-d0ac-481a-b21f-afa75d3579ac)
+  ![Login](https://github.com/user-attachments/assets/82c812ae-908c-4c00-8ed6-0c2e2a712960)
 
 
 - **Home Page**
   
-  ![Home](https://github.com/user-attachments/assets/0b2d3de1-168a-432d-a727-8263b13df890)
+  ![Home](https://github.com/user-attachments/assets/71163449-17d8-4ca5-b0b3-e8e40c203011)
 
   
 - **Emoji Picker**
   
-  ![Emoji Picker](https://github.com/user-attachments/assets/6c22e150-3d63-4c00-b0b7-2c9337a3277e)
-
+  ![Emoji Picker](https://github.com/user-attachments/assets/c6572d7b-eebf-45e7-844d-69d0551ed5bb)
 
 
 - **User Notifications**
   
-  ![User Notifications](https://github.com/user-attachments/assets/78fa5039-46b1-4156-9c95-46b11cb69da0)
-
+  ![User Notifications](https://github.com/user-attachments/assets/103cee25-dedf-4fc4-b8c3-4cc093fa1338)
 
 ---
 
