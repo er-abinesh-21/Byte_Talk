@@ -22,7 +22,7 @@ import io from 'socket.io-client';
 import EmojiPicker from 'emoji-picker-react';
 import './App.css'; // Import the CSS file
 
-const BACKEND_URL = 'https://byte-talk.onrender.com';
+const BACKEND_URL = 'byte-talk.onrender.com';
 const socket = io(BACKEND_URL);
 
 function App() {
