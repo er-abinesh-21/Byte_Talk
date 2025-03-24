@@ -1,0 +1,245 @@
+/* App.css */
+body{
+  background: linear-gradient(to top left , #ff0095, #1100ff);
+  animation: gradient-xy 15s ease infinite;
+  height: 100vh;
+}
+
+/* General container styling */
+.container {
+  background: linear-gradient(to bottom , #00aeff, #3e3eff);
+  animation: gradient-xy 15s ease infinite;
+  height: 100vh;
+}
+
+/* Login Box Styling */
+.login-box {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgb(37, 0, 48);
+  background: linear-gradient(to bottom, rgb(0, 38, 255),#00a2ff, rgb(50, 171, 252));
+  animation: gradient-xy 15s ease infinite;
+  transition: transform 0.2s;
+}
+
+.login-box:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes gradient-xy {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login-box h4 {
+  margin-bottom: 1rem;
+}
+
+
+.login-box button {
+  background-color: #ff0080;
+  border-radius: 10px;
+  min-width: 200px;
+  transition: transform 0.2s;
+}
+
+.login-box button:hover {
+  transform: scale(1.05);
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 300px;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  background: linear-gradient(to top right, #7700ff, rgb(255, 0, 212));
+  overflow-y: auto;
+  transition: width 0.3s ease;
+}
+
+
+.sidebar h5 {
+  font-weight: bold;
+}
+
+.sidebar button {
+  font-weight: bold;
+ color :white;
+  border: solid 2px white;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 0;
+    display: none;
+  }
+}
+
+.sidebar-mobile {
+  width: 70%;
+  padding: 1rem;
+  height: 100%;
+  background: linear-gradient(to top right, #7700ff, rgb(255, 0, 212));
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-mobile-enter {
+  transform: translateX(-100%);
+}
+
+.sidebar-mobile-enter-active {
+  transform: translateX(0);
+}
+
+.sidebar-mobile-exit {
+  transform: translateX(0);
+}
+
+.sidebar-mobile-exit-active {
+  transform: translateX(-100%);
+}
+
+/* Chat Panel Styling */
+.chat-panel {
+  flex: 1;
+  padding: 1rem;
+  background-image: url(Assets/bg.jpg);
+  overflow-y: auto;
+  position: relative;
+  transition: padding 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .chat-panel {
+    padding: 0.5rem;
+  }
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.chat-header h5 {
+  font-weight: bold;
+}
+
+.chat-header .close-icon {
+  color: red;
+  transition: transform 0.2s;
+}
+
+.chat-header .close-icon:hover {
+  transform: scale(1.1);
+}
+
+.chat-messages {
+  overflow-y: auto;
+  height: 60vh;
+  max-height: 60vh;
+  padding-bottom: 1rem;
+  transition: height 0.3s ease;
+}
+
+.message {
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin: 0.5rem 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.message.sent {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+}
+
+.message.received {
+  align-self: flex-start;
+}
+
+.message:hover {
+  transform: scale(1.02);
+}
+
+/* Input Styling */
+.chat-input {
+  background: white;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  transition: gap 0.3s ease;
+}
+
+.chat-input button {
+  text-transform: none;
+  padding: 0.5rem 1rem;
+  transition: transform 0.2s;
+}
+
+.chat-input button:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.mobile-menu-button:hover {
+  background-color: #f0f8ff;
+}
+
+/* Emoji Picker */
+.emoji-picker {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  z-index: 1000;
+  animation: bounce-in 0.5s ease-out;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.impomsg{
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px #000;
+  background-color: #19c403;
+  padding: 10px;
+}
+
+
